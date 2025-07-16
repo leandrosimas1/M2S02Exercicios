@@ -1,0 +1,66 @@
+*{ font-family: 'Roboto';
+
+}
+
+body{
+background: linear-gradient(120deg, #e0ffe0, #a8e063);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 25px 36px 20px 36px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    background-color: #ffffff;
+}
+
+label{
+    color: #000000;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+legend{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+fieldset{
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"],
+input[type="button"],
+select{
+    width: 100%;
+    padding: 9px 7px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #000000;
+    margin-bottom: 8px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+button{
+    background: #ffffff;
+    margin-top: 10px;
+    border: 1px solid #163020;
+    border-radius: 4px;
+    color: #000000;
+}
+
+button:hover{
+    background: #a8e063;
+    cursor: pointer;
+}
